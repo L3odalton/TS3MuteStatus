@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Resources\mic-mute.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Resources\mic-mute.ico">
+      <Pack>True</Pack>
+      <PackagePath>Resources\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
